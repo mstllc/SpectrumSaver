@@ -1,0 +1,6 @@
+#include "../include/Resources.h"
+
+128 SHADER  "..\\resources\\layer1.vert"
+129 SHADER  "..\\resources\\layer1.frag"
+130 SHADER  "..\\resources\\layer2.vert"
+131 SHADER  "..\\resources\\layer2.frag"
