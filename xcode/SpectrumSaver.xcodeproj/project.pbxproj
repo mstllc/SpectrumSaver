@@ -18,10 +18,10 @@
 		00B9955B1B128DF400A5C623 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B995591B128DF400A5C623 /* IOSurface.framework */; };
 		09A07E75BA96427CA7836278 /* AppImplMacScreenSaver.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03ACA87B75A44C3A940805DC /* AppImplMacScreenSaver.mm */; };
 		0CB50F68A6164FCAA1C4067E /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6F2F34F3544B498B3F1348 /* ScreenSaver.framework */; };
-		50A03CE41D0149BB00CAC65D /* layer1.frag in Resources */ = {isa = PBXBuildFile; fileRef = 50A03CE01D0149BB00CAC65D /* layer1.frag */; };
-		50A03CE51D0149BB00CAC65D /* layer1.vert in Resources */ = {isa = PBXBuildFile; fileRef = 50A03CE11D0149BB00CAC65D /* layer1.vert */; };
-		50A03CE61D0149BB00CAC65D /* layer2.frag in Resources */ = {isa = PBXBuildFile; fileRef = 50A03CE21D0149BB00CAC65D /* layer2.frag */; };
-		50A03CE71D0149BB00CAC65D /* layer2.vert in Resources */ = {isa = PBXBuildFile; fileRef = 50A03CE31D0149BB00CAC65D /* layer2.vert */; };
+		5009C10E1D01FACE00BBA0F3 /* layer1.frag in Resources */ = {isa = PBXBuildFile; fileRef = 5009C10A1D01FACE00BBA0F3 /* layer1.frag */; };
+		5009C10F1D01FACE00BBA0F3 /* layer1.vert in Resources */ = {isa = PBXBuildFile; fileRef = 5009C10B1D01FACE00BBA0F3 /* layer1.vert */; };
+		5009C1101D01FACE00BBA0F3 /* layer2.frag in Resources */ = {isa = PBXBuildFile; fileRef = 5009C10C1D01FACE00BBA0F3 /* layer2.frag */; };
+		5009C1111D01FACE00BBA0F3 /* layer2.vert in Resources */ = {isa = PBXBuildFile; fileRef = 5009C10D1D01FACE00BBA0F3 /* layer2.vert */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		6319873D99984AFDA85F9484 /* RendererImplGlMac.mm in Sources */ = {isa = PBXBuildFile; fileRef = D103D4DA39234005A3FC45A6 /* RendererImplGlMac.mm */; };
 		88807B8E6535464E9B028F01 /* CinderViewMac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 430877288A774E89A374F79C /* CinderViewMac.mm */; };
@@ -50,11 +50,11 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		430877288A774E89A374F79C /* CinderViewMac.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CinderViewMac.mm; path = ../../../Cinder/src/cinder/app/cocoa/CinderViewMac.mm; sourceTree = "<group>"; };
+		5009C10A1D01FACE00BBA0F3 /* layer1.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = layer1.frag; path = ../resources/layer1.frag; sourceTree = "<group>"; };
+		5009C10B1D01FACE00BBA0F3 /* layer1.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = layer1.vert; path = ../resources/layer1.vert; sourceTree = "<group>"; };
+		5009C10C1D01FACE00BBA0F3 /* layer2.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = layer2.frag; path = ../resources/layer2.frag; sourceTree = "<group>"; };
+		5009C10D1D01FACE00BBA0F3 /* layer2.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = layer2.vert; path = ../resources/layer2.vert; sourceTree = "<group>"; };
 		50A03CD71D0144D200CAC65D /* SpectrumSaverApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SpectrumSaverApp.h; path = ../src/SpectrumSaverApp.h; sourceTree = "<group>"; };
-		50A03CE01D0149BB00CAC65D /* layer1.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = layer1.frag; sourceTree = "<group>"; };
-		50A03CE11D0149BB00CAC65D /* layer1.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = layer1.vert; sourceTree = "<group>"; };
-		50A03CE21D0149BB00CAC65D /* layer2.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = layer2.frag; sourceTree = "<group>"; };
-		50A03CE31D0149BB00CAC65D /* layer2.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = layer2.vert; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		6E0F1FD134244910B598EC49 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = "thumbnail@2x.png"; path = "../resources/thumbnail@2x.png"; sourceTree = "<group>"; };
 		6E6F2F34F3544B498B3F1348 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
@@ -167,10 +167,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				50A03CE01D0149BB00CAC65D /* layer1.frag */,
-				50A03CE11D0149BB00CAC65D /* layer1.vert */,
-				50A03CE21D0149BB00CAC65D /* layer2.frag */,
-				50A03CE31D0149BB00CAC65D /* layer2.vert */,
+				5009C10A1D01FACE00BBA0F3 /* layer1.frag */,
+				5009C10B1D01FACE00BBA0F3 /* layer1.vert */,
+				5009C10C1D01FACE00BBA0F3 /* layer2.frag */,
+				5009C10D1D01FACE00BBA0F3 /* layer2.vert */,
 				8E7013F92FCD417EA40F1D75 /* Info.plist */,
 				14E67F66D4214918AC0D331D /* thumbnail.png */,
 				6E0F1FD134244910B598EC49 /* thumbnail@2x.png */,
@@ -284,10 +284,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50A03CE61D0149BB00CAC65D /* layer2.frag in Resources */,
-				50A03CE51D0149BB00CAC65D /* layer1.vert in Resources */,
-				50A03CE41D0149BB00CAC65D /* layer1.frag in Resources */,
-				50A03CE71D0149BB00CAC65D /* layer2.vert in Resources */,
+				5009C1101D01FACE00BBA0F3 /* layer2.frag in Resources */,
+				5009C10F1D01FACE00BBA0F3 /* layer1.vert in Resources */,
+				5009C10E1D01FACE00BBA0F3 /* layer1.frag in Resources */,
+				5009C1111D01FACE00BBA0F3 /* layer2.vert in Resources */,
 				F6EC419D76AC44E4ADEC59A3 /* thumbnail.png in Resources */,
 				B0F609C118A84F67B84748ED /* thumbnail@2x.png in Resources */,
 			);
